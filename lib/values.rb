@@ -9,7 +9,9 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
+  x = []
   groceries.each do |grocery|
-    grocery.values
+    x << grocery.values
   end
+  x
 end
